@@ -1,0 +1,495 @@
+.logo-img
+{
+    background: transparent;
+    border-color: transparent;
+    margin-left: 6%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.head-container
+{
+    background-color: #f38622;
+    
+}
+.logo
+{
+    position: relative;
+}
+
+
+.booknow-b
+{
+    background-color: #204d15;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 12%;
+    height: 60px;
+    position: relative;
+    margin-right: 7%;
+    float: right;
+    margin-top: -1%;
+    font-size: 20px;
+    font-family: "cofo-gothic-variable", sans-serif;
+}
+.booknow-b:hover
+{
+    cursor: pointer;
+}
+
+.booknow-b:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #3d9627;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.booknow-b:hover:after { 
+    width: 100%; 
+    left: 0; 
+    cursor: pointer;
+}
+
+.links
+{
+    float: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 21%;
+    text-decoration: none;
+    background-color: #f38622;
+    margin-top: -5%;
+    padding-bottom: 4%;
+    text-decoration: none;
+}
+
+.links-b
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+    text-decoration: none;
+}
+
+.links-b:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links-b:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    text-decoration: none;
+}
+.links-b:hover:after { 
+    width: 100%; 
+    left: 0; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.socials
+{
+    float: right;  
+    margin-right: 20px; 
+}
+
+.logo-img:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0;
+}
+
+
+.about-container
+{
+    background-color: rgb(31, 31, 31);
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+
+.about-ht
+{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 15%;
+    padding-bottom: 10%;
+    display: block;
+}
+
+.about-dt
+{
+    font-family: Roboto, sans-serif;
+    color: #a0a0a0;
+    display: block;
+    margin-top: -10%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.a-booknow-b
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 12%;
+    height: 60px;
+    position: relative;
+    margin-right: 12%;
+    float: right;
+    margin-top: -4%;
+    font-size: 20px;
+    font-family: "cofo-gothic-variable", sans-serif;
+}
+
+.a-booknow-b:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.a-booknow-b:after
+{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.a-booknow-b:hover:after
+{
+    width: 100%;
+    left: 0;
+    cursor: pointer;
+}
+
+.prices-ht
+{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    padding-bottom: 5%;
+    display: block;
+}
+
+.prices-container
+{
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 15%;
+    padding-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.prices-container > div {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.rounded-image
+{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-box {
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px #1111113d;
+    display: block;
+    transition: padding-bottom 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-box:hover {
+    cursor: pointer;
+    padding-bottom: 100px;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.1s ease, transform 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img-box:hover .description {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.rounded-text
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(212, 212, 212);
+}
+
+.rounded-price
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(212, 212, 212);
+}
+
+
+.contact-container
+{
+    padding-top: 5%;
+    background-color: rgb(212, 212, 212);
+    padding-bottom: 14%;
+
+}
+
+.contact-text-container
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: #2b2b2b;
+    padding-left: 34%;
+}
+
+.Clayton-container
+{
+    background-color: white;
+    width: 900px;
+    border-radius: 10px;
+    height: 200px;
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    box-shadow: 3px 3px #1111113d;
+}
+
+.c-name-text
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 2%;
+}
+
+.c-buttons
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.c-contact-info
+{
+    margin-left: 2.4%;
+    margin-top: 1%;
+}
+
+.c-phonenumber
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.c-email
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.Benson-container
+{
+    background-color: white;
+    width: 900px;
+    border-radius: 10px;
+    height: 200px;
+    padding-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    float: right;
+    margin-top: -14.4%;
+    box-shadow: 3px 3px #1111113d;
+}
+
+.Jimmy-container
+{
+    background-color: white;
+    width: 900px;
+    border-radius: 10px;
+    height: 200px;
+    padding-top: 1%;
+    margin-left: 25.5%;
+    margin-bottom: 3%;
+    float: left;
+    margin-top: -2%;
+    box-shadow: 3px 3px #1111113d;
+}
+
+footer
+{
+    background: #111111 url(https://github.com/Elegantbitecatering/elegantbitecatering/blob/main/img/bg-texture-on-blue.png?raw=true);
+    padding-top: 10%;
+    padding-bottom: 8%;
+    white-space: nowrap;
+}
+
+.footer-logo
+{
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 10%;
+    color: white;
+    position: absolute;
+    width: 10px;
+}
+
+.fl-container
+{
+    padding-left: 10%;
+    float: left;
+    width: 190px;
+}
+
+.footer-links
+{
+    float: center;
+    padding-left: 45%;
+}
+
+.links-text
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 1%;
+}
+
+.fl-infob
+{
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.fl-infob:hover
+{
+    cursor: pointer;
+}
+
+.footer-contact
+{
+    float: right;
+    padding-right: 10%;
+}
+
+.fc-text
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.fcontact-info
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.copyright
+{
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}
+.copy-container
+{
+    float: inline-start;
+    margin-top: 1%;
+    margin-right: 75%;
+    margin-left: 6%;
+}
+.copyright:hover
+{
+    cursor: pointer;
+}
